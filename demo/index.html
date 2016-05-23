@@ -21,16 +21,52 @@
 </head>
 
 <body>
-    <div class="progress-ring"></div>
-    <div class="progress-ring" data-precent="20"></div>
-    <!-- <div class="progress-ring" data-duration="2" id="full"></div> -->
-    <div class="progress-ring" data-precent="65" data-color="#b3cef6,#4b86db" data-duration="4"></div>
-    <div class="progress-ring" data-precent="80" data-color="#f8d5d5,#ff4242" data-duration="2"></div>
-    <div class="progress-ring" data-precent="120" data-color="#eeeeee,#fd9999" data-duration="2"></div>
+    <div class="progress-ring">
+        <div class="progress-track"></div>
+        <div class="progress-cover"></div>
+        <div class="progress-left"></div>
+        <div class="progress-right"></div>
+        <div class="progress-text"><span class="progress-num">12</span><span class="progress-percent">°</span></div>
+        
+    </div>
+    <div class="progress-ring" data-precent="20">
+        <div class="progress-track"></div>
+        <div class="progress-cover"></div>
+        <div class="progress-left"></div>
+        <div class="progress-right"></div>
+        <div class="progress-text"><span class="progress-num">12</span><span class="progress-percent">°</span></div>
+
+    </div>
+    <div class="progress-ring" data-precent="65">
+        <div class="progress-track"></div>
+        <div class="progress-cover"></div>
+        <div class="progress-left"></div>
+        <div class="progress-right"></div>
+        <div class="progress-text"><span class="progress-num">12</span><span class="progress-percent">°</span></div>
+
+    </div>
+    <div class="progress-ring" data-precent="80">
+        <div class="progress-track"></div>
+        <div class="progress-cover"></div>
+        <div class="progress-left"></div>
+        <div class="progress-right"></div>
+        <div class="progress-text"><span class="progress-num">12</span><span class="progress-percent">°</span></div>
+
+    </div>
+    <div class="progress-ring" data-precent="100">
+        <div class="progress-track"></div>
+        <div class="progress-cover"></div>
+        <div class="progress-left"></div>
+        <div class="progress-right"></div>
+        <div class="progress-text"><span class="progress-num">12</span><span class="progress-percent">°</span></div>
+
+    </div>
     <script src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/progress-ring.js"></script>
     <script>
-    $(".progress-ring").loadingRing();
+    $(function(){
+        $(".progress-ring").loadingRing();
+    })
     </script>
 </body>
 
